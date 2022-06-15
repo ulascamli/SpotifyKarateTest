@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/examples\/users\/SpotifyApi[1:22]","start":1655276048440,"end":1655276050507,"title":"src\/test\/java\/examples\/users\/SpotifyApi[1:22] 09:54:08.440-09:54:10.507 Get Playlist User"},{"id":2,"group":1,"content":"src\/test\/java\/examples\/users\/SpotifyApi[2:29]","start":1655276050513,"end":1655276051255,"title":"src\/test\/java\/examples\/users\/SpotifyApi[2:29] 09:54:10.513-09:54:11.255 Create Playlist"},{"id":3,"group":1,"content":"src\/test\/java\/examples\/users\/SpotifyApi[3:37]","start":1655276051260,"end":1655276051720,"title":"src\/test\/java\/examples\/users\/SpotifyApi[3:37] 09:54:11.260-09:54:11.720 Search Bohemian Rhapsody"},{"id":4,"group":1,"content":"src\/test\/java\/examples\/users\/SpotifyApi[4:47]","start":1655276051724,"end":1655276052602,"title":"src\/test\/java\/examples\/users\/SpotifyApi[4:47] 09:54:11.724-09:54:12.602 Add tracks to Playlist"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
