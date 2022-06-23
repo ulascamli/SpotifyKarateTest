@@ -1,0 +1,21 @@
+1.Sisteme başarılı bir şekilde giriş yapılır
+2.Giriş Yapıldığı Kontrol edilir(APİ)
+3.MentorLabs Faz2 adında bir çalma listesi oluşturulur(APİ)
+4.Liste oluşturulduğu kontrol edilir.(APİ)
+5.The Final Countdown şarkısı listeye eklenir.(APİ)
+6.İlgili parça oynatılır
+7.Doğru parçanın oynatıldığı kontrol edilir.(APİ)
+8.Bir önceki listeye tıkla
+9.Bir önceki listeyi sil
+10.Anasayfaya dön
+11.Arama bölümüne girilir.
+12.Suffocation Blues şarkısı aratılır.
+13.Black Pistol Fire'ın kartına tıklanır.
+14.Şarkı Çalınır
+15.Favoriye eklenir.
+16.Favoriye gidilir.
+17.Şarkının olduğu kontrol edilir.(APİ)
+18.Şarkı durdurulur.
+19.Şarkı favorilerden çıkarılır.
+20.Oturum kapatılır.
+21.Oturum kapatıldığı kontrol edilir.(APİ)
